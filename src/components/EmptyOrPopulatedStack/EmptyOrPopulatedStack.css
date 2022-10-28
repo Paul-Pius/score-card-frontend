@@ -1,0 +1,9 @@
+.emptyStack{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 100%;
+    width: 80%;
+    box-sizing: border-box;
+}
+

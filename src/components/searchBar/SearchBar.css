@@ -1,0 +1,29 @@
+
+
+/* .search--bar {
+    max-width: 752px;
+    margin: 0;
+} */
+
+
+
+.search--bar {  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #e6e6e6;
+    width: 100%;
+}
+
+.search--icon {
+    padding: 0.6rem;
+    min-width: 0.3rem;
+    margin-left: 0.9rem;
+}
+
+.search--input {
+    width: 100%;
+    padding: 0.6rem;
+    border: none;
+    outline: none;    
+}

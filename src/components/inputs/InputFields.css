@@ -1,0 +1,12 @@
+.form--control {
+    width: 588px;
+    height: 48px;
+    border-radius: 0.3rem;
+    
+    /* border: none; */
+    /* outline: blue */
+}
+
+.form--label {
+    margin-bottom: 0.6rem;
+}

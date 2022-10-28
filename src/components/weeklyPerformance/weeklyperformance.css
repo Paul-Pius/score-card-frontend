@@ -1,0 +1,38 @@
+.weeklyPeformanceWrapper{
+    /* background: #fff; */
+    position: absolute;
+    width: 75%;
+    height: 90%;
+}
+.weeklyPeformanceHeader{
+    /* background: #fff; */
+    /* position: absolute; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+    top: 0;
+    left: 0;
+    /* border-bottom: 1px solid #ccc; */
+}
+.weeklyPeformanceBody{
+    height: 75%;
+    background: #fff;
+}
+.weeklyPeformanceBodyHead {
+    text-align: center;
+    padding: 4px;
+    width: 100%;
+}
+.weeklyPeformanceBodyContent{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+table.weeklyPerformanceTable {
+    width: 100%;
+    position: absolute;
+}
+thead.weeklyPerformanceTableHead {
+    background: #e5e5e5;
+}

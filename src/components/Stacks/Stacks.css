@@ -1,0 +1,44 @@
+.stackContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    border: 6px solid black;
+    margin: 0;
+    padding: 1.5rem;
+}
+.topdash-left-dashboard{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+/* margin-left: 2rem; */
+/* margin-left: -0.3rem; */
+color: #03435F
+}
+
+.top-button{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+font-size: 16px;
+font-family: 'Inter';
+padding: 0.25rem 1rem;
+/* margin-right: 8.5rem; */
+width: 161px;
+height: 48px;
+background: #14A800;
+border-radius: 6px;
+border-style: none;
+color :#ffffff;
+cursor:pointer
+
+}
+.top-button img{
+    margin-right: 0.7rem;
+}

@@ -1,0 +1,27 @@
+:root {
+    --primary: linear-gradient(96.67deg, #34A853 0%, #B8D344 100%);
+}
+
+.btn {
+    width: 588px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3rem;
+    border: none;
+    outline: var(--primary);
+    background: var(--primary);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn--medium {
+    padding: 0.5rem 1rem;
+    margin-top: 2.5rem;
+}

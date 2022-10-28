@@ -1,0 +1,310 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    color:#21334F;
+    font-weight: 700;
+  }
+  /* .outer-box {
+    min-height: 90vh;
+    margin-top: 5rem;
+    margin: 0 3.1rem;
+    width: 90%;
+    padding: 2.8rem;
+    background-color: #f8f8f8;
+  } */
+  a {
+    text-decoration: none;
+    color: #21334f;
+  }
+  .vector-icon {
+    position: absolute;
+    left: 16.67%;
+    right: 16.67%;
+    top: 20.83%;
+    bottom: 20.83%;
+    background: #21334f;
+  }
+  .link-container {
+    width: 9.5rem;
+    height: 1.813rem;
+    box-sizing: border-box;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #21334f;
+    margin: 5px, 0, 20px, 0;
+  }
+  .link-box {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    background: #f8f8f8;
+    cursor: pointer;
+  }
+  .back-arrow {
+    width: 1.25rem;
+    margin-right: 0.8rem;
+  }
+  .devs-box {
+    display: inline-block;
+    max-width: 8.688rem;
+    min-height: 2.438rem;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 2.438rem;
+    margin: 5px, 0, 10px, 0;
+    color: #03435f;
+  }
+  /* .table-container {
+    margin: 5.5rem 0;
+    box-sizing: border-box;
+    position: absolute;
+    width: 70%;
+    background: #ffffff;
+    text-align: left;
+    border-collapse: collapse;
+  } */
+  .table-header {
+    background: rgba(0, 0, 0, 0.04);
+    border: none;
+    padding: 13px;
+    line-height: 48px;
+    width: 100%;
+    /* text-align: center; */
+    color: #21334f;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+
+  /* yes2 */
+
+  .table-row {
+    /* text-align: center; */
+    color: #21334f;
+    font-size: 16px;
+    line-height: 39px;
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    border-bottom: 1px solid rgb(214, 213, 213);
+    position: relative;
+  }
+  .dropdown-btn {
+    padding: 0px;
+    border: none;
+    text-decoration: none;
+    font-size: 1.4rem;
+    height: 0rem;
+  }
+  .dropdown-content {
+    position: absolute;
+    width: 14rem;
+    top: 20%;
+    right: 16%;
+    padding: 15px;
+    background: #fff;
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+    font-weight: 400;
+    text-align: left;
+    z-index: 1;
+  }
+  .dropdown .dropdown-content .dropdown-item {
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .dropdown {
+    background: #ffffff;
+    position: relative;
+    padding: 0.4rem 4rem 0.4rem 0.2rem;
+    color: #21334f;
+    border: 1px;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    border-radius: 3px;
+    left: 0;
+    box-sizing: border-box;
+  }
+  .dropdown .dropdown-content .dropdown-item button:hover {
+    background: #fff;
+  }
+  .dropdown-item-btn {
+    border: none;
+    background: #fff;
+    padding: 0.5rem 4rem 0.3rem 0.4rem;
+    font-size: 1rem;
+    font-weight: 200;
+    transition: all 0.2s;
+  }
+  .form-update {
+    width: 50%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 60px;
+    font-weight: 300;
+    font-size: 1rem;
+    width: 25rem;
+    background: #fff;
+    box-shadow: 3px 3px 10px 68rem rgba(0, 0, 0, 0.4);
+    text-align: left;
+    left: -600px;
+    top: -180px;
+    right: 25%;
+    z-index: 1;
+    border-radius: 5px;
+  }
+  .form-header {
+     display: inline-block;
+     align-items: baseline;
+     text-align: right;
+  }
+  /* .top-text {
+    font-size: 0.9rem;
+    color: #21334f;
+    font-weight: 500;
+    font-size: 19px;
+  } */
+  .top-text-btn {
+     font-size: 0.9rem;
+     color: #f8543e;
+     background: #fff;
+     font-weight: 300;
+     font-size: 16px;
+     padding: 0.5rem;
+     border: none;
+     cursor: pointer;
+   }
+  .newpassword {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .form-update input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 1rem;
+    color: #2c3f5f;
+    font-weight: 200;
+  }
+  .form-update input:focus {
+    border: 1px solid #50b051;
+    outline-color: #bbe6bc;
+  }
+  .btn_change {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(
+      60deg,
+      #50b051 0%,
+      #8ec649 51%,
+      #b3d144 100%
+    );
+    color: white;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    transition: all 0.2s;
+  }
+  .btn_change:hover {
+    background-image: linear-gradient(
+      30deg,
+      #50b051 0%,
+      #8ec649 51%,
+      #b3d144 100%
+    );
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 2px;
+  }
+
+
+.styled-table{
+    border-collapse: collapse;
+    width: 120%
+}
+
+
+.styled-table tbody{
+    background: #fff;
+}
+
+.modalBox {
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    margin-left: -10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    width: 150px;
+    border-radius: 4px;
+}
+
+.formModal {
+    position: absolute;
+    z-index: 2;
+    background-color: #fff;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: safe; 
+    width: 300%;
+    border-radius: 4px;
+    text-align: left;
+    margin-left: -90px;
+    
+}
+
+.formInput {
+    width: 1000%;
+    justify-items: center;
+    margin-top: 10px;
+    
+}
+
+.btn {
+    --primary: linear-gradient(96.67deg, #34A853 0%, #B8D344 100%);
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3rem;
+    border: none;
+    outline: var(--primary);
+    background: var(--primary);
+    color: #fff;
+    font-size: 0.8rem;
+    height: 30px;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.modalClass {
+    display: none
+}
+.active {
+    display: block
+}
+.rowModal {
+    position: absolute;
+}

@@ -1,0 +1,22 @@
+.auth--layout--wrapper {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.auth--left--content {
+    /* border: 2px solid yellow; */
+    height: 100%;
+    width: 50vw;
+    box-sizing: border-box;
+}
+
+.auth--right--content {
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 50vw;
+    box-sizing: border-box;
+}

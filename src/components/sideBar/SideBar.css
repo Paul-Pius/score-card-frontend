@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Poppins:ital,wght@0,100;1,200&display=swap");
+
+.sidebar {
+  background: #fff;
+  padding: 4rem 2rem 7rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sidebar--list {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.91rem;
+  color: #fff;
+  line-height: 1.3rem;
+  font-weight: 400;
+
+}
+.sidebar--list {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.91rem;
+  color: #fff;
+  line-height: 1.3rem;
+  font-weight: 400;
+
+}
+
+
+
+.sidebar--list .row {
+
+  height: 3rem;
+  color: #21334f;
+
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  border-radius: 0.3rem;
+  padding: 0.4rem 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  
+}
+
+.sidebar--list #active {
+  background: #14a800;
+  border-radius: 5px;
+  padding: 0.3rem 1rem;
+}
+
+.sidebar--list .row:hover {
+  background-color: #0d3108;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* .first_child0 {
+  margin-bottom: 50%;
+/* .row #icon {
+  flex: 40%;
+  display: grid;
+  place-items: center;
+} */
+
+/* .row #text {
+  flex: 60%;
+} */
+
+.sidebar--list {
+  margin-top: -5rem;
+}
